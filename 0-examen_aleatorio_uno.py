@@ -1,5 +1,5 @@
 ''' CREAR UNA CLASE GATO QUE LLEGUE A DORMIR COMER
-    JUGAR'''
+    JUGAR gatito'''
 from random import randrange, choice
 class Gato():
     conducta = 'bien'
