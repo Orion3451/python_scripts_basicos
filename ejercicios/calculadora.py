@@ -2,13 +2,13 @@
 '''
 Aqui colocamos todo lo que hace el modulo a que contexxto corresponde
 '''
-__author__ = 'Mario Luis Zapata Larico'
+__author__ = 'Mario Luis'
 __copyright__ = 'Copyright 2019, topazio'
 __credits__ = 'topazio'
 
 __licence__ = 'GLP'
 __version__ = '1.0.1'
-__maintainer__ = 'Mario Luis Zapata Larico'
+__maintainer__ = 'Mario Luis'
 __email__ = 'marioluis7526@gmail.com'
 __status__ = 'Developer'
 
