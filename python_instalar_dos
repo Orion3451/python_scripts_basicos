@@ -1,0 +1,24 @@
+Verificamos la version por defecto de python en terminal
+
+python --version
+Python 2.7.13
+
+Pero si queremos ver la version de python 3 debemos escribir
+
+python3 --version
+Python 3.5.4
+
+Para poder colocar la version python3 por defecto listaremos las versiones de python
+
+ls /usr/bin/python*
+
+Actualizaremos nuestra tabla de alternativas para incluir python 2.7 y python 3.5
+
+update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
+
+
+Si queremos cambiar la version de python por defecto de nuestro Debian
+usaremos el siguiente comando
+
+update-alternatives --config python
