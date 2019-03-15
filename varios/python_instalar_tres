@@ -1,7 +1,0 @@
-Ver la lista de versiones de python instaladas.
-
-Comando 1
- ls /usr/bin/python*
-
-Comando 2
- ls /usr/local/bin/python*
