@@ -7,14 +7,14 @@ class Celsius:
 
     @property
     def temperature(self):
-        print("Getting value")
+        print("Obteniendo valor")
         return self._temperature
 
     @temperature.setter
     def temperature(self, value):
         if value < -273:
             raise ValueError("Temperature below -273 is not possible")
-        print("Setting value")
+        print("Colocando valor")
         self._temperature = value
-temp_obj=Celsius(10)
-print temp_obj.temperature
+temp_obj=Celsius(-275)
+print(temp_obj._temperature)
