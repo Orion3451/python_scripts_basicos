@@ -1,1 +1,1 @@
-Hola que tal mundo python.
+print('Hola que tal mundo python')

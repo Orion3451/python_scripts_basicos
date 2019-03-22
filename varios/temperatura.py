@@ -1,20 +1,23 @@
 class Celsius:
-    def __init__(self, temperature = 0):
-        self._temperature = temperature
+    def __init__(self, temperature):
+        self.__temperature = self.__to_fahrenheit(temperature)
 
-    def to_fahrenheit(self):
-        return (self.temperature * 1.8) + 32
+    def __to_fahrenheit(self, valor):
+        return (valor* 1.8) + 32
 
     @property
     def temperature(self):
         print("Obteniendo valor")
-        return self._temperature
+        return self.__temperature
 
     @temperature.setter
     def temperature(self, value):
         if value < -273:
-            raise ValueError("Temperature below -273 is not possible")
+            print("Temperature below -273 is not possible")
         print("Colocando valor")
-        self._temperature = value
-temp_obj=Celsius(-275)
-print(temp_obj._temperature)
+        self.__temperature = value
+
+temp_obj = Celsius(-275)
+print(temp_obj.temperature)
+temp_obj.temperature = -274
+print(temp_obj.temperature)
