@@ -1,1 +1,0 @@
-from .gato import Gato 

@@ -1,4 +1,3 @@
-from ..animales import Animal
-class Gato(Animal):
+class Leon:
     def __init__(self, nombre):
         self.nombre = nombre
